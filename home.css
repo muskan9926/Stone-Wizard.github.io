@@ -112,7 +112,7 @@ p1
   font-size: 50px;
   padding-left: 34%;
   padding-top: 20%;
-  text-decoration: underline wavy;
+  text-decoration: none;
   text-shadow: 2px 2px red;
   
 }
@@ -191,7 +191,7 @@ h1{
 }
 
 .section {
-  height: 100vh;
+  height: 70vh;
   width: calc(100% / 5);
   position: relative;
   display: flex;
@@ -201,6 +201,21 @@ h1{
   background-size: cover;
   float: left;
   font-faimly:'Dancing';
+}
+@media all and (max-width: 768px)
+{
+  .section {
+    height: 70vh;
+    width: calc(100% / 5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    float: left;
+    font-family:'Dancing';
+  }
 }
 
 .section:nth-child(1) {
@@ -249,33 +264,53 @@ h1{
   font-weight: 400;
   color: #fff;
 }
+@media all and (max-width: 768px)
+{ p12{
+  font-family: 'Rbooto';
+  font-weight: 5000;
+  text-align: justify;
+  font-size: 20px;
+  width: 100%;
+  background-color: burlywood;
 
+    }
+   .content h4 {
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+}}
 @media all and (max-width: 768px) {
   .content {
-    width: 80%;
+    width: 100%;
   }
 }
-@media all and (max-width: 768px) {
-  .promise {
-        height: min-content;
-  }
-}
+
 
  
   
 @media all and (max-width: 768px) {
-p6{
-  padding-left: 100%;
-  font-weight: 3500;
-  font-size: 1px;
-  justify-content: space-around;
-  margin: 20px 50px 50px 50px;
-  text-align: justify;
-  
+  .promise p6 {
+    font-family: 'Rbooto';
+    font-size: 20px;
+    color: white;
+    text-orientation: inherit;
+    font-style: italic;
+    justify-content: space-around;
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    padding: 9px;
 }
-p7{
-text-align:center;
-font-size: 15px;
+
+.promise p7{
+font-family: 'Dancing';
+font-size: 30px;
+
+color: white;
+text-align: center;
+text-orientation: inherit;
+font-style: italic;
+padding-left: 80px;
+
 }
 }
 
@@ -340,10 +375,13 @@ h2, h4
     padding: auto;
       padding-left: 40px;
   }
-  p4{
-      font-size: 30px;
-  }
+  
+    p4 {
+      font-size: 16px;
+      font-weight: 500;
+    }
 }
+
 @media all and (max-width: 768px) {
   .contents {
     width: 80%;
@@ -658,7 +696,8 @@ footer{
     height: 35px;
   }
   .right form .btn{
-    margin-top: 10px;
+    margin-top: 20px;
+    padding-left: 20%;
   }
   .right form .btn button{
     height: 40px;
@@ -669,6 +708,7 @@ footer{
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
+    
     transition: .3s;
   }
   .right form .btn button:hover{
@@ -803,7 +843,7 @@ input[type="checkbox"]{
 
 
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 720px)
 {
 .contents div{
   font-size: 40px;
@@ -812,6 +852,7 @@ input[type="checkbox"]{
 .head-info h1
 {
 font-size: 20px;
+font-family: 'Rbooto';
 }
 .hheader
 {
@@ -820,7 +861,7 @@ font-size: 20px;
 p20
 {
   font-family: 'Rbooto';
-  font-weight: 5000;
+  font-weight: 7000;
   text-align: justify;
   font-size: 17px;
   background-color: burlywood;
