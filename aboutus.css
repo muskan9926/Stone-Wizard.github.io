@@ -26,13 +26,14 @@ h2{
 }
 @media all and (max-width: 768px)
 {
+    .bann video {
+  width: 100%;
+}
+
   .bann div{
       
-    
-    width:60%;
-    height:auto;
-    text-align: justify;
-    padding:2%;
+    width: 96%;
+    padding: 2%;
     letter-spacing: 5px;
     padding-top: 10%;
   }
@@ -41,7 +42,7 @@ h2{
     height:fit-content;
     background: #fafafafa;
     margin:50px auto;
-    display:flex;
+    display:block;
     justify-content: left;
 
 
