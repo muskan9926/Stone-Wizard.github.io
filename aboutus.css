@@ -1,0 +1,49 @@
+.bann
+{
+    width:90%;
+    height:520px;
+    background: #fafafafa;
+    margin:50px auto;
+    display:flex;
+    justify-content: left;
+
+}
+.bann div{
+    width:45%;
+    height:auto;
+    text-align: justify;
+    padding:2%;
+    letter-spacing: 5px;
+    padding-top: 6%;
+}
+.bann video
+{
+    width:50%;
+}
+h2{
+    text-align: center;
+    font-family: 'Dancing';
+}
+@media all and (max-width: 768px)
+{
+  .bann div{
+      
+    
+    width:60%;
+    height:auto;
+    text-align: justify;
+    padding:2%;
+    letter-spacing: 5px;
+    padding-top: 10%;
+  }
+  .bann{
+    width:90%;
+    height:fit-content;
+    background: #fafafafa;
+    margin:50px auto;
+    display:flex;
+    justify-content: left;
+
+
+  }
+}
