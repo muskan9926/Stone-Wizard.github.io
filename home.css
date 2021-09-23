@@ -191,7 +191,7 @@ h1{
 }
 
 .section {
-  height: 80vh;
+  height: 70vh;
   width: calc(100% / 5);
   position: relative;
   display: flex;
@@ -205,7 +205,7 @@ h1{
 @media all and (max-width: 768px)
 {
   .section {
-    height: 80vh;
+    height: 70vh;
     width: calc(100% / 5);
     position: relative;
     display: flex;
@@ -375,7 +375,7 @@ h2, h4
 {
 .pp  p1{
     padding: auto;
-    padding-left: 39px;
+    padding-left: 45px;
   }
   
     p4 {
@@ -854,7 +854,9 @@ input[type="checkbox"]{
 .head-info h1
 {
 font-size: 20px;
-font-family: 'Rbooto';
+font-family: sans-serif;
+font-weight: bold;
+font-style: italic;
 }
 .hheader
 {
@@ -863,7 +865,7 @@ font-family: 'Rbooto';
 p20
 {
   font-family: 'Rbooto';
-  font-weight: 7000;
+  font-weight: bolder;
   text-align: justify;
   font-size: 17px;
   background-color: burlywood;
@@ -871,6 +873,8 @@ p20
   margin: 10px 10px 10px 10px;
   display: flex;
   padding: 5px;
+  font-style: oblique;
+
 }
 
 }
