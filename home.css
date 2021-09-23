@@ -309,7 +309,7 @@ color: white;
 text-align: center;
 text-orientation: inherit;
 font-style: italic;
-padding-left: 80px;
+padding-left: 94px;
 
 }
 }
@@ -320,6 +320,8 @@ padding-left: 80px;
     color:black;
     text-decoration: none;
     text-align: center;
+    text-shadow: 2px 2px aquamarine;
+    font-family: 'Rbooto';
   }
   p{
     font-family: 'Rbooto';
@@ -371,9 +373,9 @@ h2, h4
 }
 @media all and (max-width: 768px)
 {
-  p1{
+.pp  p1{
     padding: auto;
-      padding-left: 40px;
+    padding-left: 39px;
   }
   
     p4 {
